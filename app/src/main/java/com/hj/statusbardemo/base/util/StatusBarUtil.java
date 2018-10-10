@@ -17,8 +17,6 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 
-import com.hj.statusbardemo.base.util.widget.SystemBarView;
-import com.hj.util.ResUtils;
 
 import org.jetbrains.annotations.NotNull;
 
