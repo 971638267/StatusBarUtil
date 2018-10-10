@@ -1,6 +1,5 @@
 package com.hj.statusbardemo.base.util;
 
-import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
@@ -90,7 +89,6 @@ public class StatusBarUtil {
         Window window = activity.getWindow();
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if (isLight) {
-                Log.d("tag", "++++++++++++++++++++++++++++++++++++");
                 // 修改状态栏图标字体颜色
                 if (isStatusBar) {
                     window.getDecorView().setSystemUiVisibility(window.getDecorView().getSystemUiVisibility() | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
